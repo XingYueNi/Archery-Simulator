@@ -1,0 +1,55 @@
+# ── Unity 自动生成（不要提交）──
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# ── 编译产物 ──
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+
+# ── 打包产物（不进 git，放 Releases）──
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ── IDE ──
+.vs/
+.idea/
+.vscode/
+*.vsconfig
+
+# ── 本项目临时文件 / 驱动日志 ──
+*.log
+ps_driver_sdk*
+crashlytics-build.properties
+
+# ── 备份文件 ──
+*.bak
+*.bak-*
+
+# ── 第三方授权受限的资源（不随仓库分发）──
+# 手部模型来自 Oculus Integration SDK 的 SampleFramework/CustomHands，
+# 受 Oculus SDK License 约束，不可作为独立素材再分发。
+Assets/Resources/HandsModel/
+Assets/Resources/HandsModel.meta
+Assets/Resources/HandsModel/
+Assets/Resources/HandsModel.meta**
